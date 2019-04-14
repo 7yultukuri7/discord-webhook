@@ -10,7 +10,7 @@ $(function(){
             return false;
         }
         $.post(link, {"content": content, "username": username});
-
+        console.log("コンテンツ送信完了!");
     });
 });
 
