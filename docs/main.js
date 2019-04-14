@@ -5,11 +5,12 @@ $(function(){
         var content = $('#content').val();
         if (link==null || link=="",content==null || content=="")
         {
-            alert("Please Fill Out All The Fields");
+            alert("すべての欄に記入してください");
             return false;
         }
         $.post(link, {"content": content, "username": username});
 
+        console.log("コンテンツ送信完了!");
     });
 });
 console.log("main.js 読み込み完了!");
