@@ -3,7 +3,8 @@ $(function(){
         var link = $('#link').val();
         var username = $('#username').val();
         var content = $('#content').val();
-        console.log("Link: " + "%s" + "Username: " + " %s" + "content: " + " %s", link, username, content);
+        var sty1 = 'color:#40e0d0;background:#484b52;';
+        console.log("%c Link:      " + "%s \n" + " Username: " + " %s \n" + " content:  " + " %s \n", sty1, link, username, content);
         if (link==null || link=="",content==null || content=="")
         {
             alert("すべての欄に記入してください");
