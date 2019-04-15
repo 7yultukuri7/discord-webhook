@@ -16,4 +16,7 @@ $(function(){
     });
 });
 
+$('.msg').append('<span>Ver.1.0.0(beta)</span>');
+        console.log(".msg完了!");
+
 console.log("main.js 読み込み完了!");
