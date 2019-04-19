@@ -37,18 +37,6 @@ body {
     text-align: center;
 }
 
-#footerup {
-    position: fixed;
-    left: 0;
-    top: 0;
-    width: 100%; 
-    max-width: 100%;
-    padding: 10px;
-    background-color: rgba(0, 0, 0, 0.37); 
-    color: white;
-    text-align: center;
-}
-
 .center-align {
     text-align: center;
 }
