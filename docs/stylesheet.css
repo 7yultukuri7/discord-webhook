@@ -86,4 +86,8 @@ a, a:visited {
     flex: 0 0 50%;
     max-width: 50%;
 }
+.box {
+      display: -webkit-flex;
+      display: flex;
+}
     }
