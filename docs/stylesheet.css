@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto+Condensed');
 * {
-    text-align: center;
+    text-align: left;
     font-family: 'Roboto Condensed', sans-serif;
 }
 
@@ -71,7 +71,7 @@ a, a:visited {
 }
 
 #log {
-    text-align: center;
+    text-align: left;
     width: 100%;
     max-width: 100%;
     background-color: #36393f;
