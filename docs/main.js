@@ -11,7 +11,7 @@ $(function(){
             return false;
         }
         $.post(link, {"content": content, "username": username});
-        $('#log').append('<br><span>Webhook Link:' + link + '<br>Bot Username:' + username + '<br>content:' + content + '</span><br>');
+        $('#log').append('<br><span>WebhookLink:' + link + '<br>BotUsername:' + username + '<br>content:' + content + '</span><br>');
         console.log("コンテンツ送信完了!");
     });
 });
